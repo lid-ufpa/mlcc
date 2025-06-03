@@ -1,0 +1,42 @@
+[project]
+name = "mlcc"
+version = "1.0.0"
+description = "Conteúdo do Machine Learning Crash Course do LID-UFPA."
+authors = [
+    {name = "Jean Costa", email = "jeancc.costa@gmail.com"},
+    {name = "Helder Matos",email = "msthelder@gmail.com"},
+    {name = "Samara Souza", email = "samaraaveras07@gmail.com"},
+    {name = "Joaquim Viana", email = "jviana@unilurio.ac.mz"},
+    {name = "Atílio Azevedo", email = "atilio1999@gmail.com"},
+    {name = "Jeojildo Pereira", email = "pjeojildo@gmail.com"},
+    {name = "Heloísa Silva", email = "mariahelloisa971@gmail.com"},
+    {name = "Jefferson Morais", email = "jmorais@ufpa.br"},
+    {name = "Reginaldo Santos", email = "regicsf2010@gmail.com"},
+]
+readme = "README.md"
+requires-python = "3.12.7"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "scipy (>=1.15.3,<2.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "graphviz (>=0.20.3,<0.21.0)",
+    "numpy (>=1.26.0,<2.2.0)",
+    "tensorflow (>=2.19.0,<3.0.0)",
+    "plotly (>=6.1.2,<7.0.0)",
+    "prophet (>=1.1.7,<2.0.0)",
+    "gdown (>=5.2.0,<6.0.0)",
+    "yellowbrick (>=1.5,<2.0)",
+    "mlxtend (>=0.23.4,<0.24.0)",
+    "nltk (>=3.9.1,<4.0.0)",
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
