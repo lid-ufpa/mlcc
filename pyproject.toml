@@ -1,18 +1,8 @@
 [project]
 name = "mlcc"
 version = "1.0.0"
-description = "Conteúdo do Machine Learning Crash Course do LID-UFPA."
-authors = [
-    {name = "Jean Costa", email = "jeancc.costa@gmail.com"},
-    {name = "Helder Matos",email = "msthelder@gmail.com"},
-    {name = "Samara Souza", email = "samaraaveras07@gmail.com"},
-    {name = "Joaquim Viana", email = "jviana@unilurio.ac.mz"},
-    {name = "Atílio Azevedo", email = "atilio1999@gmail.com"},
-    {name = "Jeojildo Pereira", email = "pjeojildo@gmail.com"},
-    {name = "Heloísa Silva", email = "mariahelloisa971@gmail.com"},
-    {name = "Jefferson Morais", email = "jmorais@ufpa.br"},
-    {name = "Reginaldo Santos", email = "regicsf2010@gmail.com"},
-]
+description = "Conteúdo do Machine Learning Crash Course."
+authors = []
 readme = "README.md"
 requires-python = "3.12.7"
 dependencies = [
